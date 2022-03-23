@@ -1,0 +1,11 @@
+.sidebarTitle{
+    
+    color: #666;
+    border-bottom: 2px solid #0198bd;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.sideBox{
+    padding: 10px;
+}

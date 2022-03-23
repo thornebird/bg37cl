@@ -1,0 +1,24 @@
+.discount{
+    color: white;
+    padding :0 4px;
+    background-color: #ec2e5e;    
+    margin: 2px;
+    text-align: center;
+}
+
+.sellout{
+    color : #c0504d;
+}
+
+
+.formContainer {
+    margin :5px 0;
+}
+
+.checkoutBtn{
+    width: 100%;
+}
+.img{
+  width:100%;
+  height: 400px;
+}

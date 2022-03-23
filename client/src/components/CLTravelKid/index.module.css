@@ -1,0 +1,70 @@
+.cta{
+    color: blue;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  margin: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+
+.caption{
+  font-weight: 700;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f1f1f1;
+  padding: 10px;
+  
+}
+
+.red{
+  color: #e90e0e;
+}
+
+.quote{
+  background-color: #f1f1f1;
+  padding: 17px 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+.paragraph{
+ padding: 2px;
+}
+
+.modalMessage {
+    /*Position and width*/
+    position: fixed;
+    width: 75%;
+    height: fit-content;
+    
+    /*NOTE: If you want your modal's position to be absolute or fixed, you should also include:*/
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    /*Centering horizintally*/
+    margin: 5px 10%;
+    background-color: transparent;
+    /*Purely visual stuff*/
+
+  }
+
+  
+ @media screen and (max-width: 600px) {
+    .bodyContainer{
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+      
+    .bodyContainer{
+      display: none;
+    }
+  } 

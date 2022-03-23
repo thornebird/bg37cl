@@ -1,0 +1,76 @@
+.cta{
+    color: blue;
+}
+
+.modalMessage {
+    /*Position and width*/
+    position: fixed;
+    width: 75%;
+    height: fit-content;
+    
+    /*NOTE: If you want your modal's position to be absolute or fixed, you should also include:*/
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    /*Centering horizintally*/
+    margin: 5px 10%;
+    background-color: transparent;
+    /*Purely visual stuff*/
+
+
+  
+  }
+  .yellow{
+      background-color: yellow;
+  }
+
+  .blue{
+      color: #00B1DD;
+  }
+
+  .listItem{
+    position: relative;
+ 
+    padding: .4em .4em .4em .8em;
+    margin: .5em 0 .5em 2.5em;
+    color: #444;
+    text-decoration: none;
+  }
+  
+
+  @media screen and (min-width: 600px) {
+    .bodyContainer {
+      
+    }
+    .headerLarge{
+      display: block;
+    }
+    .headerSmall{
+      display: none;
+    }
+    .logoSmall{
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .bodyContainer {
+      
+    }
+    .headerSmall{
+      display: block;
+    }
+    .headerLarge{
+      display: none;
+    }
+    .logoSmall{
+      display: block;
+    }
+  }
+
+  .btnContainer{
+    width: 100px;
+    background-color: chartreuse;
+  }

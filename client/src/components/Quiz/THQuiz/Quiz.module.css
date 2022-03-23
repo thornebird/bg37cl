@@ -1,0 +1,18 @@
+.title{
+    color: #005ce6;
+    font-size: 36px;
+    font-weight: 700;
+   font-style: italic;
+}
+
+.background{
+    background: #ebedf0;
+    padding:10px;
+    border-radius: 18px;
+    text-align: center;
+    margin: 5px;
+}
+
+.center{
+    text-align: center;
+}

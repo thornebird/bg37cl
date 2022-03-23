@@ -1,0 +1,38 @@
+.container{
+    padding :5px 25px;
+}
+
+.cardBlog{
+    margin :2px;
+}
+
+.recommended{
+    padding: 0px;
+    margin :1px;
+}
+
+.category{
+
+    padding: 5px;
+    background-color: white;
+}
+
+.infoGdpr{
+    margin: 10px;
+}
+
+.title{
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+}
+
+.subtitle{
+    font-weight: bold;
+    padding: 10px;
+}
+
+.recentTitle{
+    padding: 5px;
+    color: #9a009a;
+}

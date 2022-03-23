@@ -1,0 +1,77 @@
+.cta{
+    color: blue;
+}
+.content p{
+   font-family: Verdana;
+    margin: 0 0 20px 0;
+
+    color: #222;
+}
+.car{
+ text-align: center;
+}
+
+.headLine{
+  font-family: OpenSans-Bold;
+  margin: 30px 0 16px 0;
+  color: #222;
+
+ 
+}
+
+.yellow{
+ margin: 5px;
+ background-color: yellow;
+}
+
+.modalMessage {
+    /*Position and width*/
+    position: fixed;
+    width: 75%;
+    height: fit-content;
+    
+    /*NOTE: If you want your modal's position to be absolute or fixed, you should also include:*/
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    /*Centering horizintally*/
+    margin: 5px 10%;
+    background-color: transparent;
+    /*Purely visual stuff*/
+
+  }
+
+  .bodyContainer{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #333;
+   
+  }
+   @media screen and (max-width: 600px) {
+    .header{
+      display: none;
+    }
+    .headerMobile{
+      display: block;
+    }
+    .sideBar{
+      display: none;
+    }
+    .sideBar{
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    .header{
+      display: block;
+    }
+    .headerMobile{
+      display: none;
+    }
+    .sideBar{
+      display: block;
+    }
+    
+  } 

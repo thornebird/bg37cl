@@ -1,0 +1,27 @@
+.timer{
+    color: red;
+}
+
+.mainImg {
+    text-align: center;
+}
+.content{
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  
+
+    .headMobile{
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+      
+    
+    .headMobile{
+      display: none;
+    }
+  } 
+

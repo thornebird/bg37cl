@@ -1,0 +1,26 @@
+.timer{
+    color: red;
+}
+
+.mainImg {
+    text-align: center;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .contentBlog{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .contentVideo{
+        display: none;
+    }
+}
+
+
+
+

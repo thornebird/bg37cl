@@ -1,0 +1,24 @@
+.cta{
+    color: blue;
+}
+.btnContainer{
+    margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .btnContainer{
+      display: block;
+    }
+    .bodyContainer{
+        display: block;
+      }
+  }
+
+  @media screen and (min-width: 600px) {
+    .btnContainer{
+        display: none;
+      } 
+    .bodyContainer{
+      display: none;
+    }
+  }

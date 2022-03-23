@@ -1,0 +1,52 @@
+.postContainer{
+    padding-top: 5px;
+    margin: 0 auto;
+  }
+  .imgContainer{
+    text-align: center;
+  }
+  
+  .postImg{
+    padding: 5px;
+    width :65%;
+    text-align: center;
+  }
+  
+  .revImg{
+    padding: 2px;
+    width :90%;
+    text-align: center;
+    height: 250px;
+  }
+  
+  .postName{
+    padding: 5px;
+    font-weight: bold;
+  }
+  
+  .postBody{
+    padding: 5px;
+  }
+  
+  .note{
+    color: red;
+    font-weight: bold;
+  }
+
+  .cta{
+    color: blue;
+  }
+  
+
+
+  @media only screen and (max-width: 600px) {
+    .postImg{
+      padding: 5px;
+      height: 250px;
+      width :100%
+    }
+    .revImg{     
+      width :100%
+    }
+    
+  }

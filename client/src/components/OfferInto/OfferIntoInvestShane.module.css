@@ -1,0 +1,24 @@
+.title{
+    padding: 10px;
+}
+
+.mainImg{
+    display: none;
+}
+
+.img{
+    display: inline;
+}
+
+.timer{
+    color: red;
+}
+
+@media only screen and (max-width: 600px) {
+  .mainImg{
+    display: inline;
+   }
+   .img{
+    display: none;
+   }
+  }

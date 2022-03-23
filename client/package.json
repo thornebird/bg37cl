@@ -1,0 +1,56 @@
+{
+  "name": "client",
+  "proxy": "http://localhost:5000/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.1",
+    "@testing-library/user-event": "^12.2.0",
+    "axios": "^0.21.0",
+    "html-react-parser": "^0.14.2",
+    "query-string": "^7.0.0",
+    "react": "^17.0.1",
+    "react-animated-css": "^1.2.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^17.0.1",
+    "react-hotjar": "^2.2.1",
+    "react-iframe": "^1.8.0",
+    "react-lite-youtube-embed": "^2.0.7",
+    "react-phone-number-input": "^3.1.7",
+    "react-player": "^2.9.0",
+    "react-referer": "^1.0.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "react-select": "^3.1.1",
+    "react-select-country-list": "^2.2.1",
+    "universal-cookie": "^4.0.4",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "client": "npm start",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
